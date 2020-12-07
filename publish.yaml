@@ -1,6 +1,6 @@
 Type: Application
 Name: custom-golang
-Version: 0.0.11
+Version: 0.0.12
 Provider:
   - Alibaba
 Description: 快速部署一个 golang custom runtime 函数到阿里云函数计算
