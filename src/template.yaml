@@ -1,0 +1,27 @@
+CustomGolangComponent:
+  Component: fc
+  Provider: alibaba
+  Extends:
+    deploy:
+      - Hook: make build
+        Path: ./
+        Pre: true
+  Properties:
+    Region: 'cn-hangzhou'
+    Service:
+      Name: custom-runtime-demo
+    Function:
+      Name: custom-golang
+      CodeUri:
+        Src: ./code
+        Excludes:
+          - build-image
+          - .env
+          - evt
+          - code/main.go
+          - template.yml
+          - .s
+      CAPort: 9000
+      Handler: main.handler
+      MemorySize: 512
+      Runtime: custom
