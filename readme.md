@@ -13,8 +13,8 @@
         ![](https://images.serverlessfans.com/s-tool/zh/start-3.jpg)
 
 - 初始化一个模版项目：`s init custom-golang -p alibaba`
-- 进入项目：`cd `
+- 进入项目：`cd custom-golang`
 
-- 执行：`s deploy`即可进行部署：
+- 执行：`make deploy`即可进行部署：
 
 - 至此，我们完成了简单的函数部署功能。
