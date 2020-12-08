@@ -13,14 +13,9 @@ CustomGolangComponent:
     Function:
       Name: custom-golang
       CodeUri:
-        Src: ./code
+        Src: code
         Excludes:
-          - build-image
-          - .env
-          - evt
           - code/main.go
-          - template.yml
-          - .s
       CAPort: 9000
       Handler: main.handler
       MemorySize: 512
