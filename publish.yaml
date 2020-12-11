@@ -4,8 +4,8 @@ Version: 0.0.4
 Provider:
   - Alibaba
 Description:
-  zh: 快速部署一个 Golang 的 Event 类型的 Hello World 函数到阿里云函数计算。
-  en: Quickly deploy a Golang event type Hello world function to Alibaba Cloud function calculation.
+  zh: 快速部署一个 Golang 的 Event 类型的函数到阿里云函数计算。
+  en: Quickly deploy a Golang event type function to Alibaba Cloud function calculation.
 HomePage: https://serverless.aliyun.com/
 Tags:
   - zh: 函数计算
